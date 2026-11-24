@@ -19,6 +19,12 @@ CHECKS = (
     ("Contributing guide", ("CONTRIBUTING.md",), "Add contribution instructions."),
     ("Code of conduct", ("CODE_OF_CONDUCT.md",), "Add community behavior guidelines."),
     ("CI workflow", (".github/workflows",), "Add automated checks with GitHub Actions."),
+    ("Security policy", ("SECURITY.md",), "Add a security policy for reporting vulnerabilities."),
+    (
+        "Issue templates",
+        (".github/ISSUE_TEMPLATE",),
+        "Add issue templates to guide bug reports and feature requests.",
+    ),
 )
 
 
